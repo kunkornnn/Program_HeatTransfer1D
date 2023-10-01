@@ -252,7 +252,7 @@ def CalAniXX():
         plotheatmap(v[k], k)
 
     anim = animation.FuncAnimation(plt.figure(), animate, interval=800, frames=max_iter_time, repeat=False)
-    anim.save(r'./Animation_result/heat_equation_solution.gif')
+    anim.save(r'./heat_equation_solution.gif')
 
 def CalAni():
     try:
@@ -260,11 +260,11 @@ def CalAni():
     except:
         pass
 
-    clip = mp.VideoFileClip(r'./Animation_result/heat_equation_solution.gif')
-    clip.write_videofile(r'./Animation_result/heat_equation_solution.mp4')
+    clip = mp.VideoFileClip(r'./heat_equation_solution.gif')
+    clip.write_videofile(r'./heat_equation_solution.mp4')
 
     def load_Video():
-        file_path = r'./Animation_result/heat_equation_solution.mp4'
+        file_path = r'./heat_equation_solution.mp4'
         if file_path:
             vid_player.load(file_path)
             btn_text.set("Pause")
