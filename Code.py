@@ -1,18 +1,11 @@
 import customtkinter
-from PIL import ImageTk, Image
 import tkinter as tk
-from tkinter import filedialog
 from tkVideoPlayer import TkinterVideo
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from matplotlib.animation import FuncAnimation
 from tkinter import * 
 from tkinter import messagebox
-from tkinter import ttk
-from numpy import arange, sin, pi
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.figure import Figure
 import PIL.Image
 import moviepy.editor as mp
 
