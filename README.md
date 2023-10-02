@@ -37,7 +37,7 @@ From here you can choose between two types of results: **graph** and **animation
 
 ![](imageREADME/choose_result.PNG)
 
-## Graph
+# Graph
 
 If you choose a graph result, you will need to enter a value "Time period of each line"
 
@@ -51,7 +51,7 @@ If you enter the variable values mentioned above You will get **results** like t
 
 _From the picture, This is a Graph result._
 
-## Animation
+# Animation
 If you want animation result You just click the animation button and wait a moment.
 
 ![](imageREADME/heat_equation_solution.gif)
