@@ -10,9 +10,9 @@ This is program for Solving 1D Heat Equation Numerically using Python
 
 [How to use](#How-to-use)
 
-[Graph Result](##Graph)
+[Graph Result](#Graph)
 
-[Animation Result](##Animation)
+[Animation Result](#Animation)
 
 # Run Program_HeatTransfer1D with python
 First you need to install all necessary libraries:
