@@ -40,4 +40,5 @@ If you enter the variable values mentioned above You will get **results** like t
 If you want animation result You just click the animation button.
 
 **Animation result**
+
 ![](imageREADME/heat_equation_solution.gif)
