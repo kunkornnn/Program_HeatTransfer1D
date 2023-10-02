@@ -18,7 +18,7 @@ Then you can do:
 python Code.py
 ```
 Then you will get a program like this:
-![](imageREADME/logo.PNG)
+![](imageREADME/logo.png)
 
 
 # How to use
