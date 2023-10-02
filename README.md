@@ -18,20 +18,20 @@ Then you can do:
 python Code.py
 ```
 Then you will get a program like this:
-![](imageREADME/logo.png)
+![](imageREADME/logo.PNG)
 
 
 # How to use
 Set the variables as follows:
-![](imageREADME/Set_the_variables.png)
+![](imageREADME/Set_the_variables.PNG)
 From here you can choose between two types of results: **graph** and **animations**.
-![](imageREADME/choose_result.png)
+![](imageREADME/choose_result.PNG)
 
 ## Graph
 
 If you choose a graph result, you will need to enter a value "Time period of each line"
-![](imageREADME/Fill_Graph.png)
+![](imageREADME/Fill_Graph.PNG)
 _From the picture, Time period of each line is equal to 1200 seconds._
 
 If you enter the variable values mentioned above You will get **results** like this:
-![](imageREADME/Result_Graph.png)
+![](imageREADME/Result_Graph.PNG)
