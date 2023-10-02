@@ -22,23 +22,22 @@ Then you will get a program like this:
 
 
 # How to use
-Set the variables as follows:
-
+This is a example you can set the variables as follows:
 ![](imageREADME/Set_the_variables.PNG)
-
-From here you can choose between two types of results: **graph** and **animations**.
-
+From here you can choose between two types of results: **graph** and **animation**.
 ![](imageREADME/choose_result.PNG)
 
 ## Graph
 
 If you choose a graph result, you will need to enter a value "Time period of each line"
-
 ![](imageREADME/Fill_Graph.PNG)
-
 _From the picture, Time period of each line is equal to 1200 seconds._
-###
 
 If you enter the variable values mentioned above You will get **results** like this:
-
 ![](imageREADME/Result_Graph.PNG)
+
+## Animation
+If you want animation result You just click the animation button.
+
+**Animation result**
+![](imageREADME/heat_equation_solution.gif)
