@@ -6,7 +6,7 @@ This is program for Solving 1D Heat Equation Numerically using Python
 
 # Table of contents
 
-Hi! I'm your first Markdown file in **StackEdit**.
+[Run Program_HeatTransfer1D with python](#Run-Program_HeatTransfer1D-with-python)
 
 # Run Program_HeatTransfer1D with python
 First you need to install all necessary libraries:
