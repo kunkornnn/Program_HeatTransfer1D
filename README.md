@@ -6,3 +6,5 @@ This is code for Solving 1D Heat Equation Numerically using Python
     <img src="./documentation_images/CustomTkinter_logo_light.png">
   </picture>
 </p>
+
+<div align="center">
