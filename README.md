@@ -35,8 +35,8 @@ From here you can choose between two types of results: **graph** and **animation
 If you choose a graph result, you will need to enter a value "Time period of each line"
 
 ![](imageREADME/Fill_Graph.PNG)
-
 _From the picture, Time period of each line is equal to 1200 seconds._
+###
 
 If you enter the variable values mentioned above You will get **results** like this:
 
