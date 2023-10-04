@@ -31,7 +31,7 @@ Then you will get a program like this:
 # How to use
 This is a example you can set the variables as follows:
 
-**WARNING** beware about the UNIT!!
+**WARNING** : Beware about the UNIT!!
 
 ![](imageREADME/Set_the_variables.PNG)
 
