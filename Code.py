@@ -1,11 +1,11 @@
 import customtkinter
 import tkinter as tk
+from tkinter import * 
+from tkinter import messagebox
 from tkVideoPlayer import TkinterVideo
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from tkinter import * 
-from tkinter import messagebox
 import PIL.Image
 import moviepy.editor as mp
 
@@ -51,7 +51,7 @@ entry_InTemp.place(x=220,y=100)
 label_Wall = customtkinter.CTkLabel(master=frame_1,text="Wall Thickness",font=customtkinter.CTkFont(size=17), justify=customtkinter.LEFT)
 label_Wall.place(x=20,y=140) 
 
-entry_Wall = customtkinter.CTkEntry(master=frame_1, placeholder_text= "CM.")
+entry_Wall = customtkinter.CTkEntry(master=frame_1, placeholder_text= "M.")
 entry_Wall.place(x=220,y=140) 
 
 #K
@@ -65,14 +65,14 @@ entry_K.place(x=220,y=180)
 label_C = customtkinter.CTkLabel(master=frame_1,text="Specific Heat Capacity (c)",font=customtkinter.CTkFont(size=17), justify=customtkinter.LEFT)
 label_C.place(x=20,y=220) 
 
-entry_C = customtkinter.CTkEntry(master=frame_1, placeholder_text= "kg/m3")
+entry_C = customtkinter.CTkEntry(master=frame_1, placeholder_text= "KJ/(kg. °C)")
 entry_C.place(x=220,y=220) 
 
 #Lo
 label_Lo = customtkinter.CTkLabel(master=frame_1,text="Density (ρ)",font=customtkinter.CTkFont(size=17), justify=customtkinter.LEFT)
 label_Lo.place(x=20,y=260) 
 
-entry_Lo = customtkinter.CTkEntry(master=frame_1, placeholder_text= "kJ/(kg. °C")
+entry_Lo = customtkinter.CTkEntry(master=frame_1, placeholder_text= "kg/m3")
 entry_Lo.place(x=220,y=260) 
 
 #The experimental time
@@ -116,11 +116,11 @@ def ShowLoInNewwindow():
 def CalGraph():
 
     length = float(entry_Wall.get())
-    plate_length = int(entry_Wall.get())
+    plate_length = int(float(entry_Wall.get())*100)
     max_iter_time = int(entry_T.get())
 
     KK=float(entry_K.get())
-    c=float(entry_C.get())
+    c=(float(entry_C.get()))*1000
     p=float(entry_Lo.get())
 
     alpha = KK/(c*p)
@@ -183,11 +183,11 @@ def CalGraph():
 def CalAniXX():
 
     length = float(entry_Wall.get())
-    plate_length = int(entry_Wall.get())
+    plate_length = int(float(entry_Wall.get())*100)
     max_iter_time = int(int(entry_T.get())+int(1000))
 
     KK=float(entry_K.get())
-    c=float(entry_C.get())
+    c=(float(entry_C.get()))*1000
     p=float(entry_Lo.get())
 
     alpha = KK/(c*p)
@@ -195,7 +195,6 @@ def CalAniXX():
     delta_t = 1
     gamma = (alpha * delta_t) / (delta_x ** 2)
 
-    #gamma = 1
     if gamma > 0.5 :
         messagebox.showerror("Error Input","The value of Gamma is much higher than 0.5, it is Divergent Sequence.")
     else :
